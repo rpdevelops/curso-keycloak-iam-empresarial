@@ -46,7 +46,7 @@ Necesitamos Docker para la primera fase del curso y para construir nuestras imá
 Para Linux (Ubuntu nativo):
 Instala Docker Engine oficial:
 ```bash
-curl -fsSL [https://get.docker.com](https://get.docker.com) -o get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 sudo usermod -aG docker $USER
 # Cierra sesión y vuelve a entrar para aplicar el grupo
@@ -68,7 +68,7 @@ El cliente de línea de comandos para hablar con el clúster.
 
 Linux / WSL2:
 ```bash
-curl -LO "[https://dl.k8s.io/release/$(curl](https://dl.k8s.io/release/$(curl) -L -s [https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl](https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl)"
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ```
 macOS:
@@ -81,7 +81,7 @@ Dado que RKE2 requiere systemd y un kernel Linux, el proceso varía según tu si
 Opción A: Linux Ubuntu 22.04 (Nativo o Máquina Virtual)
 Instalaremos el servidor RKE2 directamente:
 ```bash
-curl -sfL [https://get.rke2.io](https://get.rke2.io) | sudo sh -
+curl -sfL https://get.rke2.io | sudo sh -
 sudo systemctl enable rke2-server.service
 sudo systemctl start rke2-server.service
 

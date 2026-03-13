@@ -54,7 +54,7 @@ Abre tu terminal y ejecuta paso a paso:
 ```bash
 # 1. Asegurar que las dependencias de compresión están instaladas
 # 2. Descargar e instalar SDKMAN (sin la opción silenciosa para ver posibles errores)
-curl "[https://get.sdkman.io](https://get.sdkman.io)" | bash
+curl -fsSL https://get.sdkman.io | bash
 
 # 3. Inicializar SDKMAN en la sesión actual
 source "$HOME/.sdkman/bin/sdkman-init.sh"
@@ -81,7 +81,7 @@ Para la parte de Frontend y la creación de temas personalizados (Keycloakify), 
 ### 4.1. Instalar NVM: Gestionar las versiones de Node
 Ejecuta en tu terminal (Linux/WSL2/macOS):
 ```bash
-curl -o- [https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh](https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh) | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 # Cierra y vuelve a abrir tu terminal, o recarga el perfil:
 source ~/.bashrc # o source ~/.zshrc en macOS
 ```
@@ -99,7 +99,7 @@ Aunque el despliegue principal de K8s lo hará el equipo de Infraestructura, com
 
 Para Linux (Ubuntu nativo):
 ```bash
-curl -fsSL [https://get.docker.com](https://get.docker.com) -o get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 sudo usermod -aG docker $USER
 # Cierra sesión y vuelve a entrar
