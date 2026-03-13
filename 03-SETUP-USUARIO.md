@@ -49,5 +49,5 @@ Para entender cómo funciona la autorización moderna, auditaremos los "Tokens" 
 
 Como en todos los perfiles del curso, las sesiones requieren el cliente de escritorio de **Zoom** instalado y actualizado.
 
-* **Vital para las prácticas:** Se requiere el uso de **dos pantallas** (una para ver la pantalla del instructor y otra para tu propia consola de administración y navegador).
+* **Vital para las prácticas:** Se recomienda el uso de **dos pantallas** (una para ver la pantalla del instructor y otra para tu propia consola de administración y navegador).
 * Asegúrate de tener cámara, micrófono y altavoces probados antes de iniciar la primera sesión.

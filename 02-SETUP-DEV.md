@@ -26,7 +26,7 @@ sudo apt update
 sudo apt install -y git curl wget unzip zip
 ```
 macOS:
-```
+```bash
 brew install git curl wget unzip
 ```
 ### 2.2. Visual Studio Code
@@ -62,7 +62,7 @@ source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 ### 3.2. Instalar Java JDK (LTS) y Maven
 Usaremos la versión 21 o 25 LTS de Java.
-```
+```bash
 # Para instalar la LTS más extendida (Java 21)
 sdk install java 21.0.2-tem
 
@@ -87,7 +87,7 @@ source ~/.bashrc # o source ~/.zshrc en macOS
 ```
 ### 4.2. Instalar Node.js (LTS Activa - v24)
 Ejecutaremos el comando para instalar la versión LTS (Long Term Support) actual:
-```
+```bash
 nvm install --lts
 nvm use --lts
 nvm alias default 'lts/*'
@@ -98,7 +98,7 @@ nvm alias default 'lts/*'
 Aunque el despliegue principal de K8s lo hará el equipo de Infraestructura, como desarrollador necesitarás Docker  para arrancar rápidamente contenedores locales de Keycloak y bases de datos durante tus pruebas de código.
 
 Para Linux (Ubuntu nativo):
-```
+```bash
 curl -fsSL [https://get.docker.com](https://get.docker.com) -o get-docker.sh
 sudo sh get-docker.sh
 sudo usermod -aG docker $USER
@@ -112,7 +112,7 @@ Descarga: docker.com/products/docker-desktop
 Importante Windows: Habilita la integración con WSL2 en "Settings -> Resources -> WSL Integration".
 ## ✅ 6. Test de Validación Final
 Abre una nueva terminal y ejecuta los siguientes comandos. Si todos devuelven un resultado exitoso sin errores (mostrando las versiones correctas), ¡tu máquina está lista para el curso!
-```
+```bash
 # 1. Validar Java LTS (Debe mostrar 17.x o 21.x)
 java -version
 
@@ -127,3 +127,10 @@ npm -v
 docker run hello-world
 ```
 ![Validacion Final](images/Validacion_final_Setup_dev.png)
+
+## 📹 7. Comunicaciones (Zoom)
+
+Como en todos los perfiles del curso, las sesiones requieren el cliente de escritorio de **Zoom** instalado y actualizado.
+
+* **Vital para las prácticas:** Se recomienda el uso de **dos pantallas** (una para ver la pantalla del instructor y otra para tu propia consola de administración y navegador).
+* Asegúrate de tener cámara, micrófono y altavoces probados antes de iniciar la primera sesión.
