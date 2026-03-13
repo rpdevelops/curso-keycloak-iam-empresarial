@@ -27,7 +27,7 @@ sudo apt install -y git curl wget unzip zip
 ```
 macOS:
 ```bash
-brew install git curl wget unzip
+brew install git curl wget unzip zip
 ```
 ### 2.2. Visual Studio Code
 Será nuestro editor principal tanto para React como para el ecosistema Java.
