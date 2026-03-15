@@ -43,27 +43,18 @@ Dado que en este curso participan distintos perfiles profesionales, hemos dividi
 
 ## 📅 Roadmap del Curso (8 Sesiones)
 
-El temario está estructurado en un flujo evolutivo donde cada equipo construye sobre el trabajo del anterior:
+El temario está estructurado en un flujo evolutivo donde cada equipo construye sobre el trabajo del anterior. Cada sesión dispone de un **manual de prácticas** con los pasos detallados; en la tabla siguiente se resumen los temas y el enlace al documento de cada sesión.
 
-### 🏗️ BLOQUE 1: INFRAESTRUCTURA (Sesiones 1 a 3)
-
-- **S1:** Fundamentos IAM, Docker base y creación de Imagen Estandarizada (Quarkus).
-- **S2:** Despliegue en Kubernetes On-Premise (RKE2), NGINX Ingress y Monitorización (Grafana/Prometheus).
-- **S3:** Gestión Multi-Tenant, integraciones LDAP, Backups y estrategias de actualización Zero-Downtime.
-
-### 👥 BLOQUE 2: USUARIOS Y GESTIÓN (Sesiones 4 y 5)
-
-- **S4:** Fundamentos de la Consola Admin, diseño de modelo RBAC, Grupos, Roles Compuestos y Mapeos.
-- **S5:** Flujos de Autenticación, MFA (Doble Factor) obligatorio/condicional y Políticas de Control de Acceso (ABAC).
-
-### 💻 BLOQUE 3: DESARROLLO (Sesiones 6 y 7)
-
-- **S6:** Integración Backend: Java Quarkus LTS, validación de Tokens OIDC y protección de APIs REST.
-- **S7:** Integración Frontend: React LTS, flujos PKCE, Identity Brokering y branding corporativo con **Keycloakify**.
-
-### 🚀 BLOQUE 4: CONSOLIDACIÓN (Sesión 8)
-
-- **S8:** Proyecto Final Evolutivo: Implementación E2E de un caso de uso realista ("NeoBank") uniendo RKE2, políticas estrictas y aplicaciones integradas.
+| Sesión | Bloque | Contenido / Temas | Manual de prácticas |
+|--------|--------|-------------------|---------------------|
+| **S1** | 🏗️ Infraestructura | Fundamentos IAM, Docker base y creación de Imagen Estandarizada (Quarkus). | [S1 - Prácticas Infra](./Sesion-01/S1-PRACTICAS-INFRA.md) |
+| **S2** | 🏗️ Infraestructura | Despliegue en Kubernetes On-Premise (RKE2), NGINX Ingress y Monitorización (Grafana/Prometheus). | [S2 - Prácticas Infra](./Sesion-02/S2-PRACTICAS-INFRA.md) |
+| **S3** | 🏗️ Infraestructura | Gestión Multi-Tenant, integraciones LDAP, Backups y estrategias de actualización Zero-Downtime. | [S3 - Prácticas Infra](./Sesion-03/S3-PRACTICAS-INFRA.md) |
+| **S4** | 👥 Usuarios y gestión | Fundamentos de la Consola Admin, diseño de modelo RBAC, Grupos, Roles Compuestos y Mapeos. | [S4 - Prácticas Usuarios](./Sesion-04/S4-PRACTICAS-USUARIOS.md) |
+| **S5** | 👥 Usuarios y gestión | Flujos de Autenticación, MFA (Doble Factor) obligatorio/condicional y Políticas de Control de Acceso (ABAC). | [S5 - Prácticas Usuarios](./Sesion-05/S5-PRACTICAS-USUARIOS.md) |
+| **S6** | 💻 Desarrollo | Integración Backend: Java Quarkus LTS, validación de Tokens OIDC y protección de APIs REST. | [S6 - Prácticas Devs Backend](./Sesion-06/S6-PRACTICAS-DEVS-BACKEND.md) |
+| **S7** | 💻 Desarrollo | Integración Frontend: React LTS, flujos PKCE, Identity Brokering y branding corporativo con **Keycloakify**. | [S7 - Prácticas Devs Frontend](./Sesion-07/S7-PRACTICAS-DEVS-FRONTEND.md) |
+| **S8** | 🚀 Consolidación | Proyecto Final Evolutivo: Implementación E2E de un caso de uso realista ("NeoBank") uniendo RKE2, políticas estrictas y aplicaciones integradas. | [S8 - Proyecto Final](./Sesion-08/S8-PROYECTO-FINAL.md) |
 
 ---
 
